@@ -1,0 +1,5 @@
+/node-modules/
+/public/bundle.js
+/public/service-worker.js
+/public/workbox*
+.DS_Store

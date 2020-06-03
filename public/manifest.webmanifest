@@ -1,0 +1,15 @@
+{
+    "background_color": "purple",
+    "description": "Create and display users.",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "icon/star.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "PWA",
+    "short_name": "Actors",
+    "start_url": "index.html"
+  }
