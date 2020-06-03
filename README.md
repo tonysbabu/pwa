@@ -2,5 +2,5 @@
 A pwa application to create and view users
 
 ## Steps to run
-npm install,
-npm start
+Markup: 1.npm install
+        2.npm start
