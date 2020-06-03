@@ -60,10 +60,10 @@ export default function Home() {
     fetch("http://localhost:5000/api/users")
       .then(res => res.json())
       .then(res => {
-        // setLoading(false);
+        setLoading(false);
         setUsers(res.users);
       })
-      .catch(error => setLoading(true));
+      .catch(error => setLoading(false));
   };
 
   useEffect(() => {
@@ -84,7 +84,7 @@ export default function Home() {
           ) : users && users.length === 0 ? (
             <h4 className="no-users">Create new users</h4>
           ) : (
-            users.map(user => (
+            users && users.map(user => (
               <User key={user._id} user={user} removeUser={removeUser} />
             ))
           )}

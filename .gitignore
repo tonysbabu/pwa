@@ -3,3 +3,4 @@
 /public/service-worker.js
 /public/workbox*
 .DS_Store
+node_modules
